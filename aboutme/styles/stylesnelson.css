@@ -23,6 +23,9 @@ h1 {
 }
 
 #list {
-    text-align: center;
     color: black;
+}
+
+img {
+    width: 50%;
 }
