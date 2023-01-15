@@ -33,3 +33,8 @@ img {
 section {
     width: 50%;
 }
+
+article {
+    text-align: center;
+    color: white;
+}
