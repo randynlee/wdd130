@@ -1,6 +1,5 @@
 body{
-    background-color: palevioletred;
-    width: 80%;
+    background-color: plum;
 }
 
 nav {
@@ -32,8 +31,8 @@ img {
     width: 50%;
 }
 
-section {
-    width: 50%;
+main {
+    width: 80%;
 }
 
 h2 {
