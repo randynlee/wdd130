@@ -42,13 +42,12 @@ h2 {
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
+    display: block;
 }
-
 footer p {
     font-size: 20px;
     width: 60%;
+    text-align: center; 
 }
 
 * {
