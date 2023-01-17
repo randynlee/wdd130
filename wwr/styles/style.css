@@ -1,6 +1,10 @@
 body {
     background-color: #ddded3;
 }
+
+header {
+    background-color: #c0b874;
+}
     
 #content {
     max-width: 1600px;
