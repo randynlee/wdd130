@@ -5,7 +5,11 @@ body {
 header {
     background-color: #c0b874;
 }
-    
+
+nav a:hover {
+    background-color: #58574b;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -34,3 +38,9 @@ main section {
 #background {
     height: 725px;
 }
+
+.book, .join {
+    background-color: #d5ce92;
+}
+
+
