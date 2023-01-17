@@ -8,6 +8,7 @@ header {
 
 nav a:hover {
     background-color: #58574b;
+    color: #ddded3;
 }
 
 #content {
@@ -17,6 +18,7 @@ nav a:hover {
 
 nav a {
     text-align: center;
+    color: #58574b;
 }
 
 #hero-msg h1 {
@@ -46,12 +48,34 @@ main section {
 
 .book:hover, .join:hover {
     background-color: #58574b;
+    color: #ddded3;
 }
 
 .msg {
     background-color: #58574b;
 }
 
+.msg h2 {
+    color: #58574b;
+}
+
+.msg p {
+    color: #58574b;
+}
+
 footer {
     background-color: #c0b874;
+    color: #58574b;
+}
+
+footer a {
+    color: #58574b;
+}
+
+footer a:hover {
+    color: #ddded3;
+}
+
+.home-title {
+    color: #58574b;
 }
