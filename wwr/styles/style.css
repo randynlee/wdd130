@@ -56,11 +56,11 @@ main section {
 }
 
 .msg h2 {
-    color: #58574b;
+    color: #ddded3;
 }
 
 .msg p {
-    color: #58574b;
+    color: #ddded3;
 }
 
 footer {
@@ -78,4 +78,16 @@ footer a:hover {
 
 .home-title {
     color: #58574b;
+}
+
+h4 {
+    color: #58574b;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
 }
