@@ -2,14 +2,18 @@ body{
     background-color: plum;
 }
 
-nav {
-    padding: 10px;
-    text-align: center;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
-h1 {
+header h1 {
     text-align: center;
     color: white;
+}
+
+header h1:hover {
+    color: black;
 }
 
 #quote{
@@ -25,15 +29,20 @@ h1 {
 #list {
     color: black;
     font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.listol {
+    display: inline-block;
+    text-align: left;
 }
 
 img {
-    width: 50%;
-}
-
-main {
-    width: 60%;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 h2 {
@@ -43,13 +52,5 @@ h2 {
 
 footer {
     display: block;
-}
-footer p {
-    font-size: 20px;
-    width: 60%;
-    text-align: center; 
-}
-
-* {
-    border: 2px solid blue;
+    text-align: center;
 }
