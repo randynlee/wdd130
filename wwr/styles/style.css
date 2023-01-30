@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Noto+Sans+Cherokee&display=swap');
+
 body {
     background-color: #ddded3;
+    font-family: 'Noto Sans Cherokee', 'Lucida Grande', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -20,6 +26,7 @@ nav a {
     text-align: center;
     color: #58574b;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -34,6 +41,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #d5ce92;
@@ -41,7 +52,12 @@ main section {
 
 .book, .join {
     background-color: #d5ce92;
+    color: #58574b;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -51,19 +67,32 @@ main section {
 
 .msg {
     background-color: #58574b;
+    font-size: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #ddded3;
+    font-family: 'McLaren', Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    color: #58574b;
+    font-family: 'McLaren', Tahoma, sans-serif;
 }
 
 .msg p {
     color: #ddded3;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #c0b874;
     color: #58574b;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -83,8 +112,15 @@ footer a:hover {
     color: #ddded3;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: #58574b;
+    font-family: 'McLaren', Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -97,8 +133,29 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #58574b;
+}
+
+.mountains {
+    margin-bottom: 200px;
+}
+
+#background {
+    margin-bottom: 100px;
 }
