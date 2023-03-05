@@ -205,7 +205,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img, .mountains {
+.card-img, .mountains, .trip-img {
     width: 100%;
 }
 
@@ -270,4 +270,41 @@ h4 {
     footer {
         margin-top: 25px;
     }
+}
+#heroAdv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.adv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.trip1-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    border-color: #58574b;
+    border-style: solid;
+}
+.trip2-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    border-color: #58574b;
+    border-style: solid;
+}
+.trip3-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+    border-color: #58574b;
+    border-style: solid;
+}
+.trip1-card, .trip2-card, .trip3-card {
+    margin: 100px 0;
+}
+#heroAdv-msg h4 {
+    text-align: center;
+}
+#heroAdv-msg {
+    width: 500px;
+    margin: auto;
 }
