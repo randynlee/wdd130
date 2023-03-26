@@ -270,3 +270,65 @@ footer {
   h2 {
     color: #759580;
   }
+
+
+  #heroServ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+  #heroServ-msg h4 {
+    text-align: center;
+  }
+  #heroServ-msg {
+    width: 500px;
+    margin: auto;
+    color: #759580;
+  }
+ #heroServ-msg h1 {
+  text-align: center;
+ }
+  #serv-grid {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #759580;
+  }
+  #headingCuts {
+    grid-row: 1/2;
+  }
+  #typeCuts {
+    grid-row: 2/3;
+  }
+  #headingColors {
+    grid-row: 3/4;
+  }
+  #typeColors {
+    grid-row: 4/5;
+  }
+  #headingTreatments {
+    grid-row: 5/6;
+  }
+  #typeTreatments {
+    grid-row: 6/7;
+  }
+  #headingExt {
+    grid-row: 7/8;
+  }
+  #typeExt {
+    grid-row: 8/9;
+  }
+  #headingMakeup {
+    grid-row: 9/10;
+  }
+  #typeMakeup {
+    grid-row: 10/11;
+  }
+  .vl {
+    border-left: 2px solid #759580;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
