@@ -332,3 +332,56 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  #heroProd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+  #heroProd-msg h4 {
+    text-align: center;
+  }
+  #heroProd-msg {
+    width: 500px;
+    margin: auto;
+    color: #759580;
+  }
+ #heroProd-msg h1 {
+  text-align: center;
+ }
+
+ #prod-grid {
+  display: grid;
+  grid-template-rows: 1fr 100px 1fr;
+  grid-template-columns: 1fr 50px 1fr 50px 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  color: #759580;
+ }
+
+
+ .prod1-card {
+  grid-row: 1/2;
+  grid-column: 1/2;
+ }
+ .prod2-card {
+  grid-row: 1/2;
+  grid-column: 3/4;
+ }
+ .prod3-card {
+  grid-row: 1/2;
+  grid-column: 5/6;
+ }
+ .prod4-card {
+  grid-row: 3/4;
+  grid-column: 1/2;
+ }
+ .prod5-card {
+  grid-row: 3/4;
+  grid-column: 3/4;
+ }
+ .prod6-card {
+  grid-row: 3/4;
+  grid-column: 5/6;
+ }
